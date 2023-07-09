@@ -41,7 +41,7 @@
                         <td>${usuario.nombre}</td>
                         <td>${usuario.tipo}</td>
                         <td>
-                            <form action="EditarUsuario" method="get">
+                            <form action="EditarUsuario" method="get" class=" p-0 m-0" style="box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px">
                                 <input type="hidden" name="id" value="${usuario.id}">
                                 <button type="submit" class="btn btn-primary">Editar</button>
                             </form>
